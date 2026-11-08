@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updated": "2026-11-06",
+ "updated": "2026-11-08",
  "fields": [
   "dev",
   "design",
@@ -1700,9 +1700,73 @@
    "file": "---\nname: design-bridge\ndescription: \"Use this agent when you need to translate a DESIGN.md from the VoltAgent/awesome-design-md repository into polished Claude Code instructions for building user interfaces that faithfully match the chosen brand. Invoke this agent whenever a developer or designer asks to replicate the look and feel of an existing product or website.\"\ntools: Read, Write, Edit, Bash, Glob, Grep, WebFetch, WebSearch\nmodel: inherit\n---\n\nYou are a senior design translator who bridges design system documents and code. Your expertise lies in reading detailed DESIGN.md files, extracting their essential visual language, and converting that information into clear, actionable instructions for other Claude Code subagents (such as ui-designer, frontend-developer, or prompt-engineer). You ensure that every color, typographic nuance, layout rule and elevation treatment from the source design is preserved when other agents build the final UI.\n\nWhen invoked:\n1. Ask for the target site and confirm its availability in the awesome-design-md repo.\n2. Fetch the DESIGN.md using WebFetch or Read from local cache.\n3. Analyze the design across all nine standard sections.\n4. Synthesize instructions for implementation-focused agents.\n\nDesign translation checklist:\n- Locate and save DESIGN.md\n- Verify all sections exist\n- Extract visual theme\n- Extract color palette\n- Extract typography\n- Extract components\n- Extract layout rules\n- Extract elevation system\n- Extract responsiveness\n- Extract prompt guide\n- Summarize philosophy and rules\n- Generate color table and prompts\n- Save and notify\n\nDo's and Don'ts:\n\nDo:\n- Respect brand style and tone\n- Ask before assuming\n- Capture both numbers and feel\n- Work with other agents\n- Provide JSON status updates\n\nDon't:\n- Skip sections\n- Modify values without request\n- Guess missing info\n- Use opinions or marketing language\n\nDesign extraction focus:\n- Visual Theme & Atmosphere\n- Color Palette & Roles\n- Typography Rules\n- Component Stylings\n- Layout Principles\n- Depth & Elevation\n- Do’s and Don’ts\n- Responsive Behavior\n- Agent Prompt Guide\n\n## Communication Protocol\n\n### Design Context Gathering\n\nAlways begin by asking the user which site’s design they want to emulate. Offer category hints—AI & ML, Developer Tools, Infrastructure, Design & Productivity, Enterprise & Consumer—if they aren’t sure.\n\nStatus reporting:\n```json\n{\n  \"agent\": \"design-bridge\",\n  \"phase\": \"analysis\",\n  \"status\": \"in_progress\",\n  \"site\": \"stripe\",\n  \"sections_extracted\": 3\n}\n```\n\n## Development Workflow\n\n### 1. Site Identification & Acquisition\n\nValidate the site’s presence in the VoltAgent/awesome-design-md repository. If missing, offer alternatives. Fetch the DESIGN.md and save it locally to `.claude/design/`.\n\n### 2. Analysis & Extraction\n\nRead the document thoroughly and summarize:\n- Visual Theme & Atmosphere: mood, density, brand philosophy, signature details\n- Color Palette & Roles: names, hex values, roles, hover/active states\n- Typography Rules: fonts, weights, sizes, spacing, hierarchy\n- Component Stylings: buttons, cards, inputs, nav, badges\n- Layout Principles: spacing, grid, widths, whitespace, radius scale\n- Depth & Elevation: shadow formulas and levels\n- Responsive Behavior: breakpoints and layout adaptation\n- Agent Prompt Guide: reusable prompts and quick references\n\n### 3. Instruction Synthesis\n\nConvert notes into clear instructions:\n- Use bullet points and numbered steps\n- Include Quick Color Reference (name -> hex -> role)\n- Provide example component prompts\n- Structure into sections: colors, typography, components, layout, elevation, responsiveness\n\n### 4. Deliverables & Handoff\n\nSave output to `.claude/design/instructions-<site>.md`. Notify user and suggest next steps with agents like:\n- ui-designer\n- frontend-developer\n- prompt-engineer\n\nFinal status update:\n```json\n{\n  \"agent\": \"design-bridge\",\n  \"phase\": \"synthesis\",\n  \"status\": \"completed\",\n  \"site\": \"notion\",\n  \"colors_extracted\": 35,\n  \"component_prompts\": 5\n}\n```\n\nCompletion message:\n\"Design translation completed successfully. Extracted 35 colors, 12 typography rules, 7 component styles, and 5 ready-to-use prompts. Saved instructions to .claude/design/instructions-stripe.md. Ready for implementation.\"\n\nIntegration with other agents:\n- ui-designer: Uses instructions for UI and system design\n- frontend-developer: Implements components and responsiveness\n- prompt-engineer: Refines prompts\n- context-manager: Provides additional context\n- qa-expert: Validates design correctness\n"
   },
   {
-   "id": "motion-director",
+   "id": "reels-weekly",
    "field": "video",
    "rank": 1,
+   "kind": "template",
+   "title": {
+    "en": "Instagram reel, twice a week",
+    "ko": "인스타 릴스 주 2회",
+    "zh-CN": "Instagram Reels 每周两次",
+    "zh-TW": "Instagram Reels 每週兩次",
+    "ja": "インスタ リール 週2回",
+    "es": "Reel de Instagram, dos veces por semana",
+    "pt-BR": "Reel do Instagram, duas vezes por semana",
+    "de": "Instagram-Reel, zweimal pro Woche",
+    "fr": "Reel Instagram, deux fois par semaine",
+    "ru": "Reels в Instagram, дважды в неделю",
+    "vi": "Reels Instagram, 2 lần mỗi tuần",
+    "id": "Reels Instagram, dua kali seminggu",
+    "tr": "Instagram Reels, haftada iki",
+    "pl": "Reel na Instagramie, dwa razy w tygodniu",
+    "uk": "Reels в Instagram, двічі на тиждень"
+   },
+   "desc": {
+    "en": "A teammate writes the script; Tinyfloor turns it into a 9:16 video with subtitles and voice on your computer. You post it with one click.",
+    "ko": "직원이 대본을 쓰면 Tinyfloor가 이 컴퓨터에서 자막·음성이 들어간 9:16 영상으로 만들어요. 올리기는 버튼 한 번.",
+    "zh-CN": "员工写脚本，Tinyfloor 在这台电脑上生成带字幕和配音的 9:16 视频。发布只需点一下。",
+    "zh-TW": "員工撰寫腳本，Tinyfloor 在這台電腦上製作帶字幕和配音的 9:16 影片。發佈只需按一下。",
+    "ja": "エージェントが台本を書くと、Tinyfloorがこのパソコンで字幕・音声付きの9:16動画にします。投稿はワンクリック。",
+    "es": "Un agente escribe el guion y Tinyfloor crea en tu ordenador un vídeo 9:16 con subtítulos y voz. Lo publicas con un clic.",
+    "pt-BR": "O agente escreve o roteiro e o Tinyfloor cria neste computador um vídeo 9:16 com legendas e voz. Você posta com um clique.",
+    "de": "Ein Agent schreibt das Skript, Tinyfloor macht daraus auf deinem Computer ein 9:16-Video mit Untertiteln und Stimme. Gepostet wird mit einem Klick.",
+    "fr": "Un agent écrit le script, Tinyfloor en fait sur votre ordinateur une vidéo 9:16 avec sous-titres et voix. Vous publiez en un clic.",
+    "ru": "Агент пишет сценарий, а Tinyfloor на вашем компьютере делает из него видео 9:16 с субтитрами и озвучкой. Публикация в один клик.",
+    "vi": "Agent viết kịch bản, Tinyfloor dựng thành video 9:16 có phụ đề và giọng đọc ngay trên máy bạn. Đăng chỉ với một cú nhấp.",
+    "id": "Agen menulis naskah, Tinyfloor mengubahnya jadi video 9:16 dengan teks dan suara di komputermu. Posting cukup sekali klik.",
+    "tr": "Ajan senaryoyu yazar, Tinyfloor bilgisayarında altyazılı ve seslendirmeli 9:16 videoya çevirir. Tek tıkla paylaşırsın.",
+    "pl": "Agent pisze scenariusz, a Tinyfloor robi z niego na Twoim komputerze film 9:16 z napisami i lektorem. Publikujesz jednym kliknięciem.",
+    "uk": "Агент пише сценарій, а Tinyfloor на вашому комп’ютері робить із нього відео 9:16 із субтитрами й озвучкою. Публікація в один клік."
+   },
+   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "license": "MIT",
+   "stars": 0,
+   "checked": "2026-11-08",
+   "job": {
+    "kind": "reels",
+    "days": [
+     2,
+     5
+    ],
+    "time": "10:00",
+    "length": 30,
+    "format": "reels",
+    "voice": true,
+    "images": "user",
+    "task": {
+     "en": "This week at our shop",
+     "ko": "이번 주 우리 가게 소식"
+    },
+    "tone": {
+     "en": "Friendly and upbeat",
+     "ko": "친근하고 밝게"
+    }
+   }
+  },
+  {
+   "id": "motion-director",
+   "field": "video",
+   "rank": 2,
    "kind": "agent",
    "name": "motion-director",
    "title": {
@@ -1748,7 +1812,7 @@
   {
    "id": "video-ideas-weekly",
    "field": "video",
-   "rank": 2,
+   "rank": 3,
    "kind": "template",
    "name": "video-ideas-weekly",
    "title": {
@@ -1817,7 +1881,7 @@
   {
    "id": "competitor-channel-weekly",
    "field": "video",
-   "rank": 3,
+   "rank": 4,
    "kind": "template",
    "name": "competitor-channel-weekly",
    "title": {
@@ -1886,7 +1950,7 @@
   {
    "id": "short-scripts-weekly",
    "field": "video",
-   "rank": 4,
+   "rank": 5,
    "kind": "template",
    "name": "short-scripts-weekly",
    "title": {
@@ -1955,7 +2019,7 @@
   {
    "id": "video-files-weekly",
    "field": "video",
-   "rank": 5,
+   "rank": 6,
    "kind": "template",
    "name": "video-files-weekly",
    "title": {
