@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "fields": [
   "dev",
   "design",
@@ -51,7 +51,7 @@
     "id": "Setiap Senin pagi, satu agen merangkum laporan minggu lalu menjadi satu laporan rapat.",
     "es": "Cada lunes por la mañana, un agente convierte los informes de la semana pasada en un único informe de reunión."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -120,7 +120,7 @@
     "id": "Setiap pagi di hari kerja, satu agen merangkum laporan kemarin: selesai, terhambat, berikutnya, menunggu Anda.",
     "es": "Cada mañana laborable, un agente resume los informes de ayer: hecho, bloqueado, siguiente, pendiente de ti."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -193,7 +193,7 @@
     "id": "Setiap Senin pertama bulan, laporan bulanan berisi hasil, hambatan, dan langkah berikutnya.",
     "es": "El primer lunes de cada mes, un informe mensual con resultados, bloqueos y próximos pasos."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -401,7 +401,7 @@
     "pl": "W dni robocze rano sprawdza, czy zależności mają nowe ostrzeżenia bezpieczeństwa, i raportuje.",
     "uk": "Щоранку в будні шукає нові попередження безпеки в залежностях і звітує."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -520,7 +520,7 @@
     "pl": "W każdy poniedziałek zbiera komentarze TODO i FIXME i wybiera 5 do zrobienia najpierw.",
     "uk": "Щопонеділка збирає коментарі TODO і FIXME та обирає 5, які варто зробити першими."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -681,7 +681,7 @@
     "pl": "W każdy piątek raz uruchamia testy i podsumowuje błędy oraz niestabilne testy.",
     "uk": "Щоп'ятниці раз запускає тести й підсумовує невдалі та нестабільні."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -1072,7 +1072,7 @@
     "pl": "W każdy poniedziałek wypisuje stare gałęzie Git i zaznacza te do bezpiecznego usunięcia.",
     "uk": "Щопонеділка перелічує старі гілки Git і позначає ті, що безпечно видалити."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -1371,7 +1371,7 @@
     "pl": "Co poniedziałek szuka obrazów bez opisu, bladych kolorów i przycisków bez etykiety.",
     "uk": "Щопонеділка шукає зображення без опису, бліді кольори й кнопки без підпису."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -1486,7 +1486,7 @@
     "pl": "Co piątek zbiera 5 świeżych pomysłów i przykładów designu pasujących do produktu.",
     "uk": "Щоп'ятниці збирає 5 свіжих дизайн-ідей і прикладів, що пасують вашому продукту."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -1555,7 +1555,7 @@
     "pl": "Co środę sprawdza, co podobne produkty zmieniły w wyglądzie i ekranach.",
     "uk": "Щосереди дивиться, що схожі продукти змінили у вигляді й екранах."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -1624,7 +1624,7 @@
     "pl": "Co czwartek szuka niespójnych nazw przycisków, tonu i komunikatów o błędach.",
     "uk": "Щочетверга шукає неузгоджені назви кнопок, тон і повідомлення про помилки."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -1722,23 +1722,23 @@
     "uk": "Reels в Instagram, двічі на тиждень"
    },
    "desc": {
-    "en": "A teammate writes the script; Tinyfloor turns it into a 9:16 video with subtitles and voice on your computer. You post it with one click.",
-    "ko": "직원이 대본을 쓰면 Tinyfloor가 이 컴퓨터에서 자막·음성이 들어간 9:16 영상으로 만들어요. 올리기는 버튼 한 번.",
-    "zh-CN": "员工写脚本，Tinyfloor 在这台电脑上生成带字幕和配音的 9:16 视频。发布只需点一下。",
-    "zh-TW": "員工撰寫腳本，Tinyfloor 在這台電腦上製作帶字幕和配音的 9:16 影片。發佈只需按一下。",
-    "ja": "エージェントが台本を書くと、Tinyfloorがこのパソコンで字幕・音声付きの9:16動画にします。投稿はワンクリック。",
-    "es": "Un agente escribe el guion y Tinyfloor crea en tu ordenador un vídeo 9:16 con subtítulos y voz. Lo publicas con un clic.",
-    "pt-BR": "O agente escreve o roteiro e o Tinyfloor cria neste computador um vídeo 9:16 com legendas e voz. Você posta com um clique.",
-    "de": "Ein Agent schreibt das Skript, Tinyfloor macht daraus auf deinem Computer ein 9:16-Video mit Untertiteln und Stimme. Gepostet wird mit einem Klick.",
-    "fr": "Un agent écrit le script, Tinyfloor en fait sur votre ordinateur une vidéo 9:16 avec sous-titres et voix. Vous publiez en un clic.",
-    "ru": "Агент пишет сценарий, а Tinyfloor на вашем компьютере делает из него видео 9:16 с субтитрами и озвучкой. Публикация в один клик.",
-    "vi": "Agent viết kịch bản, Tinyfloor dựng thành video 9:16 có phụ đề và giọng đọc ngay trên máy bạn. Đăng chỉ với một cú nhấp.",
-    "id": "Agen menulis naskah, Tinyfloor mengubahnya jadi video 9:16 dengan teks dan suara di komputermu. Posting cukup sekali klik.",
-    "tr": "Ajan senaryoyu yazar, Tinyfloor bilgisayarında altyazılı ve seslendirmeli 9:16 videoya çevirir. Tek tıkla paylaşırsın.",
-    "pl": "Agent pisze scenariusz, a Tinyfloor robi z niego na Twoim komputerze film 9:16 z napisami i lektorem. Publikujesz jednym kliknięciem.",
-    "uk": "Агент пише сценарій, а Tinyfloor на вашому комп’ютері робить із нього відео 9:16 із субтитрами й озвучкою. Публікація в один клік."
+    "en": "A teammate writes the script; TeenyTeam turns it into a 9:16 video with subtitles and voice on your computer. You post it with one click.",
+    "ko": "직원이 대본을 쓰면 TeenyTeam이 이 컴퓨터에서 자막·음성이 들어간 9:16 영상으로 만들어요. 올리기는 버튼 한 번.",
+    "zh-CN": "员工写脚本，TeenyTeam 在这台电脑上生成带字幕和配音的 9:16 视频。发布只需点一下。",
+    "zh-TW": "員工撰寫腳本，TeenyTeam 在這台電腦上製作帶字幕和配音的 9:16 影片。發佈只需按一下。",
+    "ja": "エージェントが台本を書くと、TeenyTeamがこのパソコンで字幕・音声付きの9:16動画にします。投稿はワンクリック。",
+    "es": "Un agente escribe el guion y TeenyTeam crea en tu ordenador un vídeo 9:16 con subtítulos y voz. Lo publicas con un clic.",
+    "pt-BR": "O agente escreve o roteiro e o TeenyTeam cria neste computador um vídeo 9:16 com legendas e voz. Você posta com um clique.",
+    "de": "Ein Agent schreibt das Skript, TeenyTeam macht daraus auf deinem Computer ein 9:16-Video mit Untertiteln und Stimme. Gepostet wird mit einem Klick.",
+    "fr": "Un agent écrit le script, TeenyTeam en fait sur votre ordinateur une vidéo 9:16 avec sous-titres et voix. Vous publiez en un clic.",
+    "ru": "Агент пишет сценарий, а TeenyTeam на вашем компьютере делает из него видео 9:16 с субтитрами и озвучкой. Публикация в один клик.",
+    "vi": "Agent viết kịch bản, TeenyTeam dựng thành video 9:16 có phụ đề và giọng đọc ngay trên máy bạn. Đăng chỉ với một cú nhấp.",
+    "id": "Agen menulis naskah, TeenyTeam mengubahnya jadi video 9:16 dengan teks dan suara di komputermu. Posting cukup sekali klik.",
+    "tr": "Ajan senaryoyu yazar, TeenyTeam bilgisayarında altyazılı ve seslendirmeli 9:16 videoya çevirir. Tek tıkla paylaşırsın.",
+    "pl": "Agent pisze scenariusz, a TeenyTeam robi z niego na Twoim komputerze film 9:16 z napisami i lektorem. Publikujesz jednym kliknięciem.",
+    "uk": "Агент пише сценарій, а TeenyTeam на вашому комп’ютері робить із нього відео 9:16 із субтитрами й озвучкою. Публікація в один клік."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-08",
@@ -1849,7 +1849,7 @@
     "pl": "Co poniedziałek znajduje 7 aktualnych tematów wideo dla twojej niszy, z hasłem otwierającym.",
     "uk": "Щопонеділка знаходить 7 актуальних тем для відео у вашій ніші, з фразою-зачіпкою."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -1918,7 +1918,7 @@
     "pl": "Co piątek zestawia, co podobne kanały opublikowały w tym tygodniu i co się sprawdziło.",
     "uk": "Щоп'ятниці перелічує, що схожі канали виклали цього тижня і що в них спрацювало."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -1987,7 +1987,7 @@
     "pl": "Co wtorek pisze 3 scenariusze krótkich wideo na podstawie tygodnia projektu.",
     "uk": "Щовівторка пише 3 сценарії коротких відео за подіями тижня в проєкті."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -2056,7 +2056,7 @@
     "pl": "Co piątek listuje ogromne, zdublowane lub nietypowe pliki wideo i obrazów.",
     "uk": "Щоп'ятниці перелічує величезні, дубльовані чи дивні за форматом відео й зображення."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -2171,7 +2171,7 @@
     "pl": "Co poniedziałek tworzy tabelę cen i planów konkurencji i zaznacza zmiany.",
     "uk": "Щопонеділка складає таблицю цін і тарифів конкурентів та позначає зміни."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -2240,7 +2240,7 @@
     "pl": "W dni robocze rano streszcza 5 najważniejszych newsów z twojego rynku.",
     "uk": "Щоранку по буднях стисло переказує 5 найважливіших новин вашого ринку."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -2313,7 +2313,7 @@
     "pl": "Co poniedziałek pisze 5 szkiców postów z newsów projektu. Niczego nie publikuje.",
     "uk": "Щопонеділка пише 5 чернеток дописів з новин проєкту. Нічого не публікує."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -2658,7 +2658,7 @@
     "pl": "Co środę szuka na stronach brakujących tytułów, opisów i zepsutych linków.",
     "uk": "Щосереди шукає на сторінках відсутні заголовки, описи й биті посилання."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -2773,7 +2773,7 @@
     "pl": "Co poniedziałek czyta notatki i ostatnią pracę i wybiera 5 rzeczy na początek.",
     "uk": "Щопонеділка читає нотатки й нещодавню роботу та вибирає 5 справ, з яких почати."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -3072,7 +3072,7 @@
     "pl": "Co środę szuka w sieci newsów o konkurencji i streszcza zmiany.",
     "uk": "Щосереди шукає в мережі новини конкурентів і стисло переказує зміни."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -3233,7 +3233,7 @@
     "pl": "Co piątek podsumowuje, co zrobiono i co się opóźniło, i szkicuje następny tydzień.",
     "uk": "Щоп'ятниці підбиває підсумки: що зроблено, що відстало, і чернетка плану на тиждень."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -3394,7 +3394,7 @@
     "pl": "Co czwartek zbiera z notatek pytania bez odpowiedzi i nierozstrzygnięte sprawy.",
     "uk": "Щочетверга збирає з нотаток питання без відповіді та невирішені справи."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -3601,7 +3601,7 @@
     "pl": "Każdego ranka w dni robocze podpowiada 3 świeże tematy z tego, co na topie.",
     "uk": "Щоранку в будні пропонує 3 свіжі теми з того, що зараз у тренді."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -3904,7 +3904,7 @@
     "pl": "Co piątek zbiera niedokończone szkice i wskazuje, które są najbliżej końca.",
     "uk": "Щоп'ятниці збирає недописані чернетки й каже, які найближчі до завершення."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -4019,7 +4019,7 @@
     "pl": "Co poniedziałek planuje, co pisać w tym tygodniu, na podstawie szkiców, pomysłów i terminów.",
     "uk": "Щопонеділка планує, що писати цього тижня: за чернетками, ідеями й термінами."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -4088,7 +4088,7 @@
     "pl": "Co środę sprawdza świeże teksty pod kątem niespójnych terminów, tonu i pisowni.",
     "uk": "Щосереди шукає в свіжих текстах розбіжності в термінах, тоні й написанні."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -4157,7 +4157,7 @@
     "pl": "Co poniedziałek czyta arkusze i zestawia kluczowe liczby oraz zmiany w tabeli.",
     "uk": "Щопонеділка читає ваші таблиці й зводить ключові цифри та зміни в таблицю."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -4364,7 +4364,7 @@
     "pl": "Każdego ranka w dni robocze szuka w plikach danych braków, duplikatów i dziwnych wartości.",
     "uk": "Щоранку в будні шукає у файлах даних пропуски, дублікати й дивні значення."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -4483,7 +4483,7 @@
     "pl": "Co piątek wyszukuje w danych nagłe skoki i spadki oraz możliwe przyczyny.",
     "uk": "Щоп'ятниці знаходить у даних різкі стрибки й падіння та можливі причини."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -4598,7 +4598,7 @@
     "pl": "Co poniedziałek wypisuje pliki danych zmienione w zeszłym tygodniu i co w nich zmieniono.",
     "uk": "Щопонеділка перелічує файли даних, змінені минулого тижня, і що в них змінилося."
    },
-   "source": "https://github.com/lhjwork/tinyfloor-hooks",
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
    "license": "MIT",
    "stars": 0,
    "checked": "2026-11-06",
@@ -4626,6 +4626,79 @@
      "uk": "Склади перелік файлів CSV, експортів таблиць і файлів даних у цій теці, змінених за останні 7 днів (використай історію git, якщо вона є, інакше дати файлів). Не змінюй, не видаляй і не переміщуй жодних файлів. Наприкінці склади звіт у Markdown: таблиця з файлом, датою останньої зміни, доданими чи видаленими рядками, доданими чи видаленими стовпцями та приміткою в один рядок про те, що змінилося."
     }
    }
+  },
+  {
+   "id": "reels-edit",
+   "field": "video",
+   "rank": 7,
+   "kind": "skill",
+   "name": "reels-edit",
+   "title": {
+    "en": "Edit a reel from the terminal",
+    "ko": "터미널에서 릴스 고치기",
+    "tr": "Reel'i terminalden düzenle",
+    "ja": "ターミナルからリールを直す",
+    "de": "Reel im Terminal bearbeiten",
+    "ru": "Правка рилса из терминала",
+    "pl": "Edytuj reel z terminala",
+    "uk": "Правка рілса з термінала",
+    "zh-CN": "在终端里修改 reel",
+    "fr": "Modifier un reel depuis le terminal",
+    "pt-BR": "Editar um reel pelo terminal",
+    "zh-TW": "在終端機修改 reel",
+    "vi": "Sửa reel từ terminal",
+    "id": "Edit reel dari terminal",
+    "es": "Editar un reel desde la terminal"
+   },
+   "desc": {
+    "en": "/reels-edit <what to change>: edits only the needed lines of a TeenyTeam reel, checks it and sends it back for your stamp.",
+    "ko": "/reels-edit <바꿀 것>: TeenyTeam 릴스 대본에서 필요한 줄만 고치고 검사한 뒤 다시 결재에 올려요.",
+    "tr": "/reels-edit <değişecek şey>: TeenyTeam reel'inde yalnızca gereken satırları düzenler, kontrol eder ve yeniden mührün için gönderir.",
+    "ja": "/reels-edit <変更内容>: TeenyTeam のリールの必要な行だけを直し、チェックして、もう一度押印待ちに回します。",
+    "de": "/reels-edit <was geändert werden soll>: Ändert nur die nötigen Zeilen eines TeenyTeam-Reels, prüft es und legt es dir erneut zum Abstempeln vor.",
+    "ru": "/reels-edit <что изменить>: правит в рилсе TeenyTeam только нужные строки, проверяет и снова отправляет на вашу печать.",
+    "pl": "/reels-edit <co zmienić>: poprawia w reelu TeenyTeam tylko potrzebne linie, sprawdza go i znów wysyła do Twojej pieczątki.",
+    "uk": "/reels-edit <що змінити>: виправляє в рілсі TeenyTeam лише потрібні рядки, перевіряє й знову надсилає на вашу печатку.",
+    "zh-CN": "/reels-edit <要改什么>：只修改 TeenyTeam reel 中需要的行，检查后重新交给你盖章。",
+    "fr": "/reels-edit <ce qu'il faut changer> : ne modifie que les lignes utiles d'un reel TeenyTeam, le vérifie et le renvoie pour ton tampon.",
+    "pt-BR": "/reels-edit <o que mudar>: edita só as linhas necessárias de um reel do TeenyTeam, confere e devolve para o seu carimbo.",
+    "zh-TW": "/reels-edit <要改什麼>：只修改 TeenyTeam reel 中需要的行，檢查後重新交給你蓋章。",
+    "vi": "/reels-edit <điều cần đổi>: chỉ sửa những dòng cần thiết của một reel TeenyTeam, kiểm tra rồi gửi lại để bạn đóng dấu.",
+    "id": "/reels-edit <yang diubah>: hanya mengedit baris yang perlu pada reel TeenyTeam, memeriksanya, lalu mengirim ulang untuk stempelmu.",
+    "es": "/reels-edit <qué cambiar>: edita solo las líneas necesarias de un reel de TeenyTeam, lo revisa y lo devuelve para tu sello."
+   },
+   "source": "https://github.com/lhjwork/teenyteam-hooks",
+   "license": "MIT",
+   "checked": "2026-11-09",
+   "file": "---\nname: reels-edit\ndescription: Edit a TeenyTeam reel from the terminal and send it back for the owner's approval. Use for \"/reels-edit <what to change>\", e.g. \"make the first scene stronger\" or \"cut it to 20 seconds\".\n---\n\n# Edit a TeenyTeam reel\n\nThe request is in the arguments: $ARGUMENTS\n\n1. Find the hook. Read `~/.claude/settings.json` (Windows: `%USERPROFILE%\\.claude\\settings.json`) and take the path of the command that contains `teenyteam-hook`. Call it `<hook>` below.\n2. Find the reel. Reels are folders in `~/.teenyteam/reports/reels/` (Windows: `%USERPROFILE%\\.teenyteam\\reports\\reels\\`). Use the one the request names, otherwise the newest. Versions are in `<reel>/variants/a`, `b`, `c`; use the one the request names, otherwise `a`. That folder is `<dir>`.\n3. Run `<hook> --reels-check <dir>`. Read `<dir>/script.md` only if you need the exact lines.\n4. Edit only the lines that the request or the check is about (Text, Voice, Duration, Speed, Transition, Motion, Music…). Never rewrite the whole file. The format and every line are in the guide below.\n5. Run `<hook> --reels-preview <dir> <scene>` for each changed scene, then `<hook> --reels-check <dir>` again until it ends with `fix: none` (or only problems you were asked to keep).\n6. Finish with `<hook> --reels-submit <dir>`. It renders the version and puts it back in the owner's approvals as the next round. Nothing is posted before the owner stamps it.\n7. Reply in two or three lines: what you changed, the last check line, and the submit line.\n\nRules: don't post, send or delete anything; don't open the video unless the numbers can't answer; use only sounds from `<hook> --reels-sounds` or the built-in effects.\n\nThe full line guide: `<hook> --reels-check` output names the problems; the script lines are `Text: Voice: Image: Clip: Photo: Sound: Duration: Speed: Transition: Motion:` per scene and `Size: SubStyle: SubMotion: Music: MusicVolume: Voice: AudioName: TrendAudio: Beat: Length:` under the title. Leave out lines you don't need; a missing line keeps the default.\n"
+  }
+ ],
+ "teams": [
+  {
+   "id": "ig-marketing",
+   "builtin": true,
+   "name": {
+    "en": "Instagram marketing team",
+    "ko": "인스타 마케팅 팀"
+   },
+   "members": [
+    {
+     "agent": "ig-planner",
+     "role": "lead"
+    },
+    {
+     "agent": "ig-maker",
+     "role": "maker"
+    },
+    {
+     "agent": "ig-editor",
+     "role": "editor"
+    },
+    {
+     "agent": "ig-analyst",
+     "role": "analyst"
+    }
+   ]
   }
  ]
 }
